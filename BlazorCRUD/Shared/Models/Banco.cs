@@ -1,4 +1,4 @@
-﻿using DataSim.Shared.Models;
+﻿using BlazorCRUD.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +13,40 @@ namespace BlazorCRUD.Shared.Models
     public static class Banco
     {
 
-        public static List<Produto> Produtos { get; set; } = new();
+        public static List<Produto> Produtos { get; set; } = new()
+        {
+            new Produto
+            {
+                Id = 1,
+                Nome = "Produto A",
+                Preco = 29.99,
+                Quantidade = 100,
+                Imagem = "https://via.placeholder.com/50x50?text=Produto+A"
+            },
+            new Produto
+            {
+                Id = 2,
+                Nome = "Produto B",
+                Preco = 45.50,
+                Quantidade = 50,
+                Imagem = "https://via.placeholder.com/50x50?text=Produto+B"
+            },
+            new Produto
+            {
+                Id = 3,
+                Nome = "Produto C",
+                Preco = 19.99,
+                Quantidade = 200,
+                Imagem = "https://via.placeholder.com/50x50?text=Produto+C"
+            },
+            new Produto
+            {
+                Id = 4,
+                Nome = "Produto D",
+                Preco = 99.99,
+                Quantidade = 10,
+                Imagem = "https://via.placeholder.com/50x50?text=Produto+D"
+            }
+        };
     }
 }

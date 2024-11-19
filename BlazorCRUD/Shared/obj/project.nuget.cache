@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KSqtLln5q8w=",
+  "dgSpecHash": "7EVWCgr2jqo=",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\BlazorCRUD.Shared.csproj",
+  "projectFilePath": "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Shared\\BlazorCRUD.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

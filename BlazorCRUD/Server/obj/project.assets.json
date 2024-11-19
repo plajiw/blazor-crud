@@ -1224,11 +1224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\BlazorCRUD.Server.csproj",
+      "projectUniqueName": "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Server\\BlazorCRUD.Server.csproj",
       "projectName": "BlazorCRUD.Server",
-      "projectPath": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\BlazorCRUD.Server.csproj",
+      "projectPath": "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Server\\BlazorCRUD.Server.csproj",
       "packagesPath": "C:\\Users\\pablo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\obj\\",
+      "outputPath": "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1250,11 +1250,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\BlazorCRUD.Client.csproj": {
-              "projectPath": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\BlazorCRUD.Client.csproj"
+            "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Client\\BlazorCRUD.Client.csproj": {
+              "projectPath": "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Client\\BlazorCRUD.Client.csproj"
             },
-            "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\BlazorCRUD.Shared.csproj": {
-              "projectPath": "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\BlazorCRUD.Shared.csproj"
+            "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Shared\\BlazorCRUD.Shared.csproj": {
+              "projectPath": "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Shared\\BlazorCRUD.Shared.csproj"
             }
           }
         }

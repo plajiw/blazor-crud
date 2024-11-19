@@ -1,0 +1,84 @@
+﻿@page "/EditarProduto/{ProdutoId}"
+@using BlazorCRUD.Shared.Models
+@inject HttpClient httpClient
+@inject NavigationManager NavigationManager
+@inherits LayoutComponentBase
+
+<div class="container py-5">
+    <div class="col-lg-8 mx-auto">
+        <h3 class="text-center text-light mb-4">Editar Produto</h3>
+
+        <!-- Formulário de Edição -->
+        <EditForm Model="@produto" OnValidSubmit="AtualizarProduto">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <!-- Nome do Produto -->
+            <div class="mb-3">
+                <label for="nome" class="form-label text-white">Nome do Produto</label>
+                <InputText id="nome" class="form-control" @bind-Value="produto.Nome" placeholder="Digite o nome do produto" />
+            </div>
+
+            <!-- Preço do Produto -->
+            <div class="mb-3">
+                <label for="preco" class="form-label text-white">Preço</label>
+                <InputNumber id="preco" class="form-control" @bind-Value="produto.Preco" min="0" />
+            </div>
+
+            <!-- Quantidade do Produto -->
+            <div class="mb-3">
+                <label for="quantidade" class="form-label text-white">Quantidade</label>
+                <InputNumber id="quantidade" class="form-control" @bind-Value="produto.Quantidade" min="1" />
+            </div>
+
+            <!-- Imagem do Produto -->
+            <div class="mb-3">
+                <label for="imagem" class="form-label text-white">Imagem URL</label>
+                <InputText id="imagem" class="form-control" @bind-Value="produto.Imagem" placeholder="Digite a URL da imagem" />
+            </div>
+
+            <!-- Botões -->
+            <div class="d-flex justify-content-between">
+                <!-- Botão de Salvar -->
+                <button type="submit" class="btn btn-success">
+                    <i class="bi bi-save me-2"></i>Salvar Alterações
+                </button>
+                <!-- Botão de Cancelar -->
+                <a href="/ListarProdutos" class="btn btn-secondary">
+                    <i class="bi bi-x-circle me-2"></i>Cancelar
+                </a>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int ProdutoId { get; set; } // Para receber o ID do produto da URL
+
+    private Produto produto = new Produto(); // Produto que será editado
+
+    // Carrega o produto com base no ID
+    protected override void OnInitialized()
+    {
+        // Aqui você pode buscar o produto com base no ID na lista Banco.Produtos
+        produto = Banco.Produtos.FirstOrDefault(p => p.Id == ProdutoId) ?? new Produto();
+    }
+
+    // Método para atualizar o produto
+    private void AtualizarProduto()
+    {
+        // Atualiza o produto no banco simulado (Banco.Produtos)
+        var produtoExistente = Banco.Produtos.FirstOrDefault(p => p.Id == produto.Id);
+        if (produtoExistente != null)
+        {
+            produtoExistente.Nome = produto.Nome;
+            produtoExistente.Preco = produto.Preco;
+            produtoExistente.Quantidade = produto.Quantidade;
+            produtoExistente.Imagem = produto.Imagem;
+        }
+
+        // Redireciona para a lista de produtos após a atualização
+        NavigationManager.NavigateTo("/ListarProdutos"); // Redireciona para a lista de produtos
+    }
+}

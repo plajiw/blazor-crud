@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "produto",
-        "Type": "DataSim.Shared.Models.Produto",
+        "Type": "BlazorCRUD.Shared.Models.Produto",
         "IsRequired": true
       }
     ],
@@ -41,7 +41,7 @@
     "Parameters": [
       {
         "Name": "produto",
-        "Type": "DataSim.Shared.Models.Produto",
+        "Type": "BlazorCRUD.Shared.Models.Produto",
         "IsRequired": true
       }
     ],

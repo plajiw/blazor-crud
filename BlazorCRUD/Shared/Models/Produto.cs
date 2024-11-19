@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataSim.Shared.Models
+namespace BlazorCRUD.Shared.Models
 {
     public class Produto
     {

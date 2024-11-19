@@ -1,0 +1,98 @@
+﻿@page "/ListarProdutos"
+@using BlazorCRUD.Shared.Models
+@inject HttpClient httpClient
+@inherits LayoutComponentBase
+
+<div class="container py-5">
+    <div class="col-lg-8 mx-auto">
+        <h3 class="text-center text-light mb-4">Lista de Produtos</h3>
+
+        <!-- Formulário de Filtro -->
+        <EditForm Model="@nomeProduto" OnValidSubmit="BuscarProdutos">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <!-- Contêiner flexível com barra de pesquisa e botão -->
+            <div class="mb-3 d-flex">
+                <!-- Barra de pesquisa -->
+                <div class="flex-grow-1 me-2">
+                    <InputText id="search"
+                               class="form-control"
+                               @bind-Value="nomeProduto"
+                               placeholder="Digite o nome do produto" />
+                </div>
+
+                <!-- Botão de buscar -->
+                <button class="btn btn-primary mb-3" @onclick="CarregarProdutos">
+                    <i class="bi bi-search me-2"></i>Buscar
+                </button>
+            </div>
+        </EditForm>
+
+        <!-- Tabela de Produtos -->
+        <div class="card bg-dark text-light shadow-sm">
+            <div class="card-body">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Imagem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (produtos != null && produtos.Any())
+                        {
+                            @foreach (var produto in produtos)
+                            {
+                                <tr>
+                                    <td>@produto.Nome</td>
+                                    <td>@produto.Preco.ToString("C2")</td>
+                                    <td>@produto.Quantidade</td>
+                                    <td>
+                                        <img src="@produto.Imagem" alt="@produto.Nome" class="img-thumbnail" width="50" height="50" />
+                                    </td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="4" class="text-center">Nenhum produto encontrado</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Produto> produtos = new();
+    private string nomeProduto = string.Empty;
+
+    // Método para carregar os produtos a partir do "banco" estático
+    private void CarregarProdutos()
+    {
+        // Simula a busca dos produtos no banco estático com o nome filtrado
+        produtos = Banco.Produtos
+            .Where(p => string.IsNullOrWhiteSpace(nomeProduto) || p.Nome.Contains(nomeProduto, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+
+    // Método chamado ao digitar no campo de busca (filtra automaticamente)
+    private void BuscarProdutos()
+    {
+        // Atualiza a lista de produtos com o nome filtrado
+        CarregarProdutos();
+    }
+
+    // Carrega os produtos ao iniciar a página
+    protected override void OnInitialized()
+    {
+        // Carregar os produtos ao inicializar a página
+        CarregarProdutos();
+    }
+}

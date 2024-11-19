@@ -13,31 +13,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorCRUD.Client
 build_property.RootNamespace = BlazorCRUD.Client
-build_property.ProjectDir = D:\Projetos\GitHub\BlazorCRUD\Client\
+build_property.ProjectDir = D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Client\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Projetos\GitHub\BlazorCRUD\Client
+build_property.MSBuildProjectDirectory = D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projetos/GitHub/BlazorCRUD/Client/App.razor]
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/GitHub/BlazorCRUD/Client/Pages/AdicionarProduto.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRpY2lvbmFyUHJvZHV0by5yYXpvcg==
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/Pages/AdicionarProdutos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRpY2lvbmFyUHJvZHV0b3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/GitHub/BlazorCRUD/Client/Pages/Index.razor]
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/Pages/EditarProdutos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFyUHJvZHV0b3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/Pages/ExcluirProdutos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhjbHVpclByb2R1dG9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/GitHub/BlazorCRUD/Client/_Imports.razor]
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/Pages/ListarProdutos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdGFyUHJvZHV0b3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/Pages/ProdutosCRUD.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHV0b3NDUlVELnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projetos/GitHub/BlazorCRUD/Client/Shared/MainLayout.razor]
+[D:/Projetos/GitHub/blazor-crud/BlazorCRUD/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-wu7p0wsi5n

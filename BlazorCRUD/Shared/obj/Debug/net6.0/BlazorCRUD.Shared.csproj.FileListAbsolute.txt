@@ -9,3 +9,15 @@ D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.dll
 D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\refint\BlazorCRUD.Shared.dll
 D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.pdb
 D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\ref\BlazorCRUD.Shared.dll
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\bin\Debug\net6.0\BlazorCRUD.Shared.deps.json
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\bin\Debug\net6.0\BlazorCRUD.Shared.dll
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\bin\Debug\net6.0\BlazorCRUD.Shared.pdb
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.AssemblyInfoInputs.cache
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.AssemblyInfo.cs
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.csproj.CoreCompileInputs.cache
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.sourcelink.json
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.dll
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\refint\BlazorCRUD.Shared.dll
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.pdb
+D:\Projetos\GitHub\blazor-crud\BlazorCRUD\Shared\obj\Debug\net6.0\ref\BlazorCRUD.Shared.dll

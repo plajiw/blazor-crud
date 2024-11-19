@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x95vKrSYgbs=",
+  "dgSpecHash": "7pccmi/bsJ8=",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\BlazorCRUD.Client.csproj",
+  "projectFilePath": "D:\\Projetos\\GitHub\\blazor-crud\\BlazorCRUD\\Client\\BlazorCRUD.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.33\\microsoft.aspnetcore.authorization.6.0.33.nupkg.sha512",
     "C:\\Users\\pablo\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.33\\microsoft.aspnetcore.components.6.0.33.nupkg.sha512",

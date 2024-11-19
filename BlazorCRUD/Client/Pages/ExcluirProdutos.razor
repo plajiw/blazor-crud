@@ -1,0 +1,72 @@
+﻿@page "/ExcluirProdutos/{ProdutoId}"
+@using BlazorCRUD.Shared.Models
+@inject NavigationManager NavigationManager
+@inherits LayoutComponentBase
+
+<div class="container py-5">
+    <div class="col-lg-8 mx-auto">
+        <h3 class="text-center text-light mb-4">Excluir Produto</h3>
+
+        <div class="card bg-dark text-light shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">Tem certeza que deseja excluir o seguinte produto?</h5>
+
+                <!-- Exibe detalhes do produto -->
+                <dl class="row">
+                    <dt class="col-sm-4">Nome:</dt>
+                    <dd class="col-sm-8">@produto.Nome</dd>
+
+                    <dt class="col-sm-4">Preço:</dt>
+                    <dd class="col-sm-8">@produto.Preco.ToString("C2")</dd>
+
+                    <dt class="col-sm-4">Quantidade:</dt>
+                    <dd class="col-sm-8">@produto.Quantidade</dd>
+
+                    <dt class="col-sm-4">Imagem:</dt>
+                    <dd class="col-sm-8">
+                        <img src="@produto.Imagem" alt="@produto.Nome" class="img-thumbnail" width="50" height="50" />
+                    </dd>
+                </dl>
+
+                <!-- Botões de Confirmação -->
+                <div class="d-flex justify-content-between">
+                    <!-- Botão para Confirmar Exclusão -->
+                    <button class="btn btn-danger" @onclick="ExcluirProduto">
+                        <i class="bi bi-trash me-2"></i>Excluir
+                    </button>
+                    <!-- Botão para Cancelar -->
+                    <a href="/ListarProdutos" class="btn btn-secondary">
+                        <i class="bi bi-x-circle me-2"></i>Cancelar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int ProdutoId { get; set; } // Recebe o ID do produto da URL
+
+    private Produto produto = new Produto(); // Produto a ser excluído
+
+    // Carrega o produto com base no ID
+    protected override void OnInitialized()
+    {
+        // Aqui você pode buscar o produto com base no ID na lista Banco.Produtos
+        produto = Banco.Produtos.FirstOrDefault(p => p.Id == ProdutoId) ?? new Produto();
+    }
+
+    // Método para excluir o produto
+    private void ExcluirProduto()
+    {
+        var produtoExistente = Banco.Produtos.FirstOrDefault(p => p.Id == produto.Id);
+        if (produtoExistente != null)
+        {
+            Banco.Produtos.Remove(produtoExistente); // Remove o produto da lista
+        }
+
+        // Redireciona de volta para a lista de produtos
+        NavigationManager.NavigateTo("/ListarProdutos");
+    }
+}
