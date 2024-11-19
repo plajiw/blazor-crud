@@ -1,5 +1,3 @@
-dotnet new blazorwasm -ho -o BlazorCRUD
-
 # BlazorCRUD
 
 BlazorCRUD é um projeto pessoal desenvolvido a partir do template Blazor WebAssembly.
