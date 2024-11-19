@@ -1,0 +1,11 @@
+D:\Projetos\GitHub\BlazorCRUD\Shared\bin\Debug\net6.0\BlazorCRUD.Shared.deps.json
+D:\Projetos\GitHub\BlazorCRUD\Shared\bin\Debug\net6.0\BlazorCRUD.Shared.dll
+D:\Projetos\GitHub\BlazorCRUD\Shared\bin\Debug\net6.0\BlazorCRUD.Shared.pdb
+D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.AssemblyInfoInputs.cache
+D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.AssemblyInfo.cs
+D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.csproj.CoreCompileInputs.cache
+D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.dll
+D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\refint\BlazorCRUD.Shared.dll
+D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\BlazorCRUD.Shared.pdb
+D:\Projetos\GitHub\BlazorCRUD\Shared\obj\Debug\net6.0\ref\BlazorCRUD.Shared.dll

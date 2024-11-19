@@ -1,0 +1,138 @@
+﻿@page "/"
+@inherits LayoutComponentBase
+
+<div class="container py-5 bg-black text-light">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <!-- Hero Section -->
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold text-light mb-3">Bem-vindo ao BlazorCRUD</h1>
+                <p class="lead opacity-75">
+                    O <strong>BlazorCRUD</strong> é um projeto de estudo pessoal desenvolvido em Blazor para simular operações CRUD usando C#, uma API REST e banco de dados em memória.
+                </p>
+                <hr class="my-4 opacity-50" />
+            </div>
+
+            <!-- Sobre o Projeto -->
+            <div class="card bg-dark text-light border-secondary mb-4 shadow">
+                <div class="card-body">
+                    <h2 class="h4 mb-3">Sobre o Projeto</h2>
+                    <p class="opacity-75">
+                        O <strong>BlazorCRUD</strong> é um projeto pessoal criado para estudar e praticar operações CRUD usando o Blazor.
+                        O objetivo é entender como construir uma aplicação interativa com Blazor, manipulando dados em memória e utilizando APIs
+                    </p>
+                </div>
+            </div>
+
+            <!-- Funcionalidades -->
+            <div class="card bg-dark text-light border-secondary mb-4 shadow">
+                <div class="card-body">
+                    <h2 class="h4 mb-3">Funcionalidades do BlazorCRUD</h2>
+                    <div class="list-group list-group-flush">
+                        <div class="list-group-item bg-dark text-light border-secondary py-3 px-4">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-plus-circle fs-5 text-primary me-3"></i>
+                                <div>
+                                    <strong>Adicionar Produto</strong>
+                                    <div class="small opacity-75">Endpoint: <code class="text-light">POST /api/produtos/incluir</code></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item bg-dark text-light border-secondary py-3 px-4">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-list-ul fs-5 text-success me-3"></i>
+                                <div>
+                                    <strong>Listar Produtos</strong>
+                                    <div class="small opacity-75">Endpoint: <code class="text-light">GET /api/produtos/listar</code></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item bg-dark text-light border-secondary py-3 px-4">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-pencil-square fs-5 text-warning me-3"></i>
+                                <div>
+                                    <strong>Atualizar Produto</strong>
+                                    <div class="small opacity-75">Endpoint: <code class="text-light">PUT /api/produtos/alterar</code></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list-group-item bg-dark text-light border-secondary py-3 px-4">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-trash fs-5 text-danger me-3"></i>
+                                <div>
+                                    <strong>Excluir Produto</strong>
+                                    <div class="small opacity-75">Endpoint: <code class="text-light">DELETE /api/produtos/excluir/{id}</code></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tecnologias -->
+            <div class="card bg-dark text-light border-secondary shadow">
+                <div class="card-body">
+                    <h2 class="h4 mb-3">Tecnologias Utilizadas</h2>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-primary">
+                            <i class="bi bi-code-slash me-1"></i>Blazor
+                        </span>
+                        <span class="badge bg-success">
+                            <i class="bi bi-gear me-1"></i>ASP.NET Core
+                        </span>
+                        <span class="badge bg-info">
+                            <i class="bi bi-hash me-1"></i>C#
+                        </span>
+                        <span class="badge bg-secondary">
+                            <i class="bi bi-database me-1"></i>Banco de Dados em Memória
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Navbar enhancements */
+    .navbar-dark .navbar-brand {
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+
+    .navbar-nav .nav-link {
+        transition: background-color 0.3s ease;
+    }
+
+        .navbar-nav .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+    /* Card enhancements */
+    .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+        border-radius: 0.5rem;
+    }
+
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+    /* List group item enhancements */
+    .list-group-item {
+        transition: background-color 0.2s, transform 0.2s;
+        border-radius: 0.3rem;
+    }
+
+        .list-group-item:hover {
+            background-color: rgba(255, 255, 255, 0.1) !important;
+            transform: translateY(-2px);
+        }
+
+    /* Footer */
+    footer {
+        background-color: #222;
+        border-top: 1px solid #444;
+    }
+</style>

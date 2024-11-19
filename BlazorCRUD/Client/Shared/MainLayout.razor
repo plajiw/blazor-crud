@@ -1,0 +1,67 @@
+﻿@inherits LayoutComponentBase
+
+<!-- Wrapper -->
+<div class="min-vh-100 d-flex flex-column bg-black">
+    <!-- Header fixo -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">BlazorCRUD</a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <NavLink class="nav-link rounded-2" href="/" Match="NavLinkMatch.All">
+                            <i class="bi bi-house-door"></i> Início
+                        </NavLink>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <NavLink class="nav-link rounded-2" href="/AdicionarProduto">
+                            <i class="bi bi-plus-circle"></i> Adicionar Produto
+                        </NavLink>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Espaçador -->
+    <div class="pt-5 mt-4"></div>
+
+    <!-- Conteúdo principal -->
+    <main class="flex-grow-1 bg-black py-3">
+        <div class="container">
+            @Body
+        </div>
+    </main>
+
+    <!-- Footer com links de redes sociais -->
+    <footer class="bg-dark text-light py-3 mt-auto">
+        <div class="container text-center">
+            <a href="https://github.com/plajiw" target="_blank" class="text-light mx-2" title="GitHub">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/plajiw" target="_blank" class="text-light mx-2" title="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://instagram.com/plajiw" target="_blank" class="text-light mx-2" title="Instagram">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </div>
+    </footer>
+</div>
+
+<!-- Forçar a barra de rolagem sempre visível -->
+<style>
+    html {
+        overflow-y: scroll;
+    }
+</style>
+
+<script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>

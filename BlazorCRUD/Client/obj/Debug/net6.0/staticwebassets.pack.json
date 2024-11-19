@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\obj\\Debug\\net6.0\\compressed\\9z61fju8vt.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorCRUD.Client.styles.css",
+      "PackagePath": "staticwebassets\\BlazorCRUD.Client.styles.css"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorCRUD.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BlazorCRUD.Client.props",
+      "PackagePath": "build\\BlazorCRUD.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorCRUD.Client.props",
+      "PackagePath": "buildMultiTargeting\\BlazorCRUD.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BlazorCRUD.Client.props",
+      "PackagePath": "buildTransitive\\BlazorCRUD.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

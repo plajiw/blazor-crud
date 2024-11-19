@@ -1,0 +1,80 @@
+﻿@page "/AdicionarProduto"
+@using DataSim.Shared.Models
+@inject HttpClient httpClient
+@inherits LayoutComponentBase
+
+<div class="container py-5">
+    <div class="col-lg-6 mx-auto">
+        <!-- Título do Formulário -->
+        <h3 class="text-center text-light mb-4">Incluir Produto</h3>
+
+        <!-- Formulário de Inclusão -->
+        <div class="card bg-dark text-light shadow-sm">
+            <div class="card-body">
+                <EditForm Model="produto" OnValidSubmit="Incluir" class="d-flex flex-column">
+                    <DataAnnotationsValidator /> <!-- Validador de Data Annotations -->
+                    <!-- Nome do Produto -->
+                    <div class="mb-3">
+                        <label class="form-label text-white">Nome</label>
+                        <InputText class="form-control" @bind-Value="produto.Nome" placeholder="Nome do produto"></InputText>
+                        <ValidationMessage For="@(() => produto.Nome)" class="text-danger" /> <!-- Mensagem de erro -->
+                    </div>
+
+                    <!-- Preço do Produto -->
+                    <div class="mb-3">
+                        <label class="form-label text-white">Preço</label>
+                        <InputNumber class="form-control" @bind-Value="produto.Preco" placeholder="Preço"></InputNumber>
+                        <ValidationMessage For="@(() => produto.Preco)" class="text-danger" /> <!-- Mensagem de erro -->
+                    </div>
+
+                    <!-- Quantidade -->
+                    <div class="mb-3">
+                        <label class="form-label text-white">Quantidade</label>
+                        <InputNumber class="form-control" @bind-Value="produto.Quantidade" placeholder="Quantidade"></InputNumber>
+                        <ValidationMessage For="@(() => produto.Quantidade)" class="text-danger" /> <!-- Mensagem de erro -->
+                    </div>
+
+                    <!-- Imagem do Produto -->
+                    <div class="mb-3">
+                        <label class="form-label text-white">Imagem</label>
+                        <InputText class="form-control" @bind-Value="produto.Imagem" placeholder="URL da imagem"></InputText>
+                    </div>
+
+                    <!-- Botão de Submissão -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-plus-circle me-1"></i>Adicionar Produto
+                        </button>
+                    </div>
+
+                </EditForm>
+            </div>
+        </div>
+
+        <!-- Mensagem de Feedback -->
+        <div class="text-center text-warning mt-3">
+            @msg
+        </div>
+    </div>
+</div>
+
+@code {
+    Produto produto = new(); // Instância da classe Produto
+    string msg = "";
+
+    private async Task Incluir()
+    {
+        string api = "api/produtos/incluir";
+        HttpResponseMessage response = await httpClient.PostAsJsonAsync(api, produto);
+
+        if (!response.IsSuccessStatusCode)
+        {
+            msg = await response.Content.ReadAsStringAsync(); // Exibe a mensagem de erro do BadRequest
+        }
+        else
+        {
+            msg = "Inclusão realizada com sucesso!";
+            produto = new(); // Limpa o formulário
+        }
+    }
+}

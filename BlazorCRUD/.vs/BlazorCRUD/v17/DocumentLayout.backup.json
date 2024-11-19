@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\GitHub\\BlazorCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62BF978C-6D1D-45D4-A4C6-E040F0794C6F}|Shared\\BlazorCRUD.Shared.csproj|d:\\projetos\\github\\blazorcrud\\shared\\models\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BF978C-6D1D-45D4-A4C6-E040F0794C6F}|Shared\\BlazorCRUD.Shared.csproj|solutionrelative:shared\\models\\banco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|d:\\projetos\\github\\blazorcrud\\client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|solutionrelative:client\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D71E9-9AB4-499D-8530-82264872A5E2}|Server\\BlazorCRUD.Server.csproj|d:\\projetos\\github\\blazorcrud\\server\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10D71E9-9AB4-499D-8530-82264872A5E2}|Server\\BlazorCRUD.Server.csproj|solutionrelative:server\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|d:\\projetos\\github\\blazorcrud\\client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|solutionrelative:client\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|d:\\projetos\\github\\blazorcrud\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|d:\\projetos\\github\\blazorcrud\\client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|solutionrelative:client\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|d:\\projetos\\github\\blazorcrud\\client\\pages\\adicionarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|solutionrelative:client\\pages\\adicionarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|d:\\projetos\\github\\blazorcrud\\client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|solutionrelative:client\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|d:\\projetos\\github\\blazorcrud\\client\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F803D5E-6DD6-4F48-91E6-DED0D5B6D804}|Client\\BlazorCRUD.Client.csproj|solutionrelative:client\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D71E9-9AB4-499D-8530-82264872A5E2}|Server\\BlazorCRUD.Server.csproj|d:\\projetos\\github\\blazorcrud\\server\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C10D71E9-9AB4-499D-8530-82264872A5E2}|Server\\BlazorCRUD.Server.csproj|solutionrelative:server\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BF978C-6D1D-45D4-A4C6-E040F0794C6F}|Shared\\BlazorCRUD.Shared.csproj|d:\\projetos\\github\\blazorcrud\\shared\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62BF978C-6D1D-45D4-A4C6-E040F0794C6F}|Shared\\BlazorCRUD.Shared.csproj|solutionrelative:shared\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D71E9-9AB4-499D-8530-82264872A5E2}|Server\\BlazorCRUD.Server.csproj|d:\\projetos\\github\\blazorcrud\\server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C10D71E9-9AB4-499D-8530-82264872A5E2}|Server\\BlazorCRUD.Server.csproj|solutionrelative:server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10D71E9-9AB4-499D-8530-82264872A5E2}|Server\\BlazorCRUD.Server.csproj|d:\\projetos\\github\\blazorcrud\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10D71E9-9AB4-499D-8530-82264872A5E2}|Server\\BlazorCRUD.Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62BF978C-6D1D-45D4-A4C6-E040F0794C6F}|Shared\\BlazorCRUD.Shared.csproj|d:\\projetos\\github\\blazorcrud\\shared\\blazorcrud.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{62BF978C-6D1D-45D4-A4C6-E040F0794C6F}|Shared\\BlazorCRUD.Shared.csproj|solutionrelative:shared\\blazorcrud.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Client\\wwwroot\\index.html",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\wwwroot\\index.html",
+              "RelativeToolTip": "Client\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-19T08:32:47.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Client\\Program.cs",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\Program.cs",
+              "RelativeToolTip": "Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T08:31:18.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\_Imports.razor",
+              "RelativeDocumentMoniker": "Client\\_Imports.razor",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\_Imports.razor",
+              "RelativeToolTip": "Client\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T13:34:25.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdicionarProduto.razor",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\Pages\\AdicionarProduto.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\AdicionarProduto.razor",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\Pages\\AdicionarProduto.razor",
+              "RelativeToolTip": "Client\\Pages\\AdicionarProduto.razor",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAEwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T13:27:33.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Client\\Pages\\Index.razor",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\Pages\\Index.razor",
+              "RelativeToolTip": "Client\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T13:17:13.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Banco.cs",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\Models\\Banco.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\Banco.cs",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\Models\\Banco.cs",
+              "RelativeToolTip": "Shared\\Models\\Banco.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:47:47.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\App.razor",
+              "RelativeDocumentMoniker": "Client\\App.razor",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\App.razor",
+              "RelativeToolTip": "Client\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T13:17:11.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Client\\Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Client\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Client\\Shared\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T13:17:12.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Server\\Controllers\\ProdutosController.cs",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Server\\Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAQwFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:51:13.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-18T13:45:54.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "Server\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\Pages\\Error.cshtml*",
+              "RelativeToolTip": "Server\\Pages\\Error.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T13:12:32.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:12:29.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Shared\\Models\\Produto.cs",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\Models\\Produto.cs*",
+              "RelativeToolTip": "Shared\\Models\\Produto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T12:44:11.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BlazorCRUD.Shared.csproj",
+              "DocumentMoniker": "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\BlazorCRUD.Shared.csproj",
+              "RelativeDocumentMoniker": "Shared\\BlazorCRUD.Shared.csproj",
+              "ToolTip": "D:\\Projetos\\GitHub\\BlazorCRUD\\Shared\\BlazorCRUD.Shared.csproj",
+              "RelativeToolTip": "Shared\\BlazorCRUD.Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-18T12:43:55.964Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
